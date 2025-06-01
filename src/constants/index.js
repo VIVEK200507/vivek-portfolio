@@ -58,7 +58,7 @@ export const experiences = [
   {
     title: "AI-Based Hackathon – SBI Life",
     company_name: "Hack2Skill Pvt. Ltd.",
-    icon: hack2skill,
+    icon:  eduskill,
     iconBg: "#161329",
     date: "Nov 2024 – Jan 2024",
     points: [
@@ -71,7 +71,7 @@ export const experiences = [
   {
     title: "Pragati AI | Hackathon",
     company_name: "Hack2Skill Pvt. Ltd.",
-    icon: hack2skill,
+    icon: mathwork,
     iconBg: "#161329",
     date: "Feb 2025 – Apr 2025",
     points: [
@@ -84,7 +84,7 @@ export const experiences = [
   {
     title: "AI-Based Hackathon – Dynamic Job Finder & Skill Assessment",
   company_name: "Hack2Skill Pvt. Ltd.",
-  icon: hack2skill,
+  icon: edunet,
   iconBg: "#161329",
   date: "May 2024 – July 2024",
   points: [
