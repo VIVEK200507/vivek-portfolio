@@ -40,8 +40,7 @@ export const navLinks = [
 export const services = [
   { title: "C", icon: c },
   { title: "C++", icon: cpp },
-  { title: "Python", icon: python },
-  { title: "Java", icon: java },
+  { title: "Python", icon: python }
 ];
 
 export const technologies = [
@@ -57,41 +56,46 @@ export const technologies = [
 
 export const experiences = [
   {
-    title: "AI/ML Intern",
-    company_name: "EduSkill Foundation | AWS Academy | AICTE",
-    icon: eduskill,
+    title: "AI-Based Hackathon – SBI Life",
+    company_name: "Hack2Skill Pvt. Ltd.",
+    icon: hack2skill,
     iconBg: "#161329",
-    date: "Sep 2023 - Nov 2023",
+    date: "Nov 2024 – Jan 2024",
     points: [
-      "Acquired hands-on knowledge of AWS Cloud Foundation, delving into cloud infrastructure, services, and deployment.",
-      "also gaining a solid foundation in Machine Learning, covering topics like algorithms, data analysis, and model building.",
+      "Participated in SBI Life Hackathon focused on enhancing customer data security and fraud detection.",
+      "Developed an AI-driven document verification system to validate customer identity and prevent forgery.",
+      "Implemented fraud detection logic using behavioral analytics and pattern recognition.",
+      "Proposed a secure onboarding workflow integrating OCR, face match APIs, and anomaly detection algorithms.",
     ],
   },
   {
-    title: "Mathwork Ai Virtual Intern",
-    company_name: "Mathwork | AICTE",
-    icon: mathwork,
+    title: "Pragati AI | Hackathon",
+    company_name: "Hack2Skill Pvt. Ltd.",
+    icon: hack2skill,
     iconBg: "#161329",
-    date: "May 2023 - Sep 2023",
+    date: "Feb 2025 – Apr 2025",
     points: [
-      "Completed virtual internship, gaining a strong foundation in MATLAB, including data analysis and processing.",
-      "Acquired practical skills in image and signal processing, including segmentation, batch processing, and spectral analysis.",
-      "Developed expertise in machine learning models for clustering, classification, and regression, and customized deep learning techniques for image classification.",
+      "Worked on an AI solution aimed at addressing hunger and disease prediction in underserved rural areas.",
+      "Focused on maternal health by designing a tool that supports critical decision-making during pregnancy.",
+      "Utilized AI to identify potential complications, predict disease risks, and assess impacts on both mother and child.",
+      "Integrated local data, symptoms, and behavioral inputs to provide early warnings and resource recommendations.",
     ],
   },
   {
-    title: "Artificial Intelligence Intern",
-    company_name: "Edunet Foundation | IBM SkillsBuild | AICTE",
-    icon: edunet,
-    iconBg: "#161329",
-    date: "June 2023 - July 2023",
-    points: [
-      "Engineered a comprehensive Mental Health Fitness Tracker ML model utilizing Python and scikit-learn.",
-      "Maximized the model's performance by refining model parameters and employing ensemble methods, yielding an outstanding accuracy percentage of 98.50%.",
-      "Leveraged 12 regression algorithms to attain precise outcomes in analyzing and predicting mental fitness levels across 150+ countries.",
+    title: "AI-Based Hackathon – Dynamic Job Finder & Skill Assessment",
+  company_name: "Hack2Skill Pvt. Ltd.",
+  icon: hack2skill,
+  iconBg: "#161329",
+  date: "May 2024 – July 2024",
+  points: [
+    "Developed an AI tool designed to dynamically match users with job opportunities based on their evolving skill sets.",
+    "Integrated personalized skill assessments covering both technical and soft skills to guide career growth.",
+    "Suggested targeted learning paths and practice challenges to upskill users based on assessment results.",
+    "Proposed the inclusion of AR/VR-based virtual internships to provide immersive learning and hands-on project exposure.",
     ],
   },
 ];
+
 
 export const projects = [
   {
@@ -117,7 +121,7 @@ export const projects = [
       { name: "Javascript", color: "pink-text-gradient" },
     ],
     image: termpw,
-    source_code_link: "https://github.com/lohitkolluri/lohitkolluri.github.io",
+    source_code_link: "https://github.com/VIVEK200507/vivek-portfolio",
   },
   {
     name: "Mental Health Fitness Tracker",
@@ -165,6 +169,6 @@ export const projects = [
     ],
 
     image: sketcher,
-    source_code_link: "https://github.com/lohitkolluri/Image_to_Pencil_Sketch_App",
+    source_code_link: "https://github.com/VIVEK200507/vivek-portfolio",
   },
 ];

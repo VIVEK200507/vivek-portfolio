@@ -40,11 +40,7 @@ const About = () => {
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I am a Computer Science student at SRM University and multilingual speaker with a passion
-        for ethical hacking, artificial intelligence, and neural language processing. I am looking
-        to join a company that values innovation, collaboration, and continuous learning and am
-        confident that my enthusiasm and drive will help me succeed in any role that leverages my
-        passion for technology.
+        I am a BSc Information Technology student at HNBGU University. I am passionate about artificial intelligence, cybersecurity, Python development, and software testing, with hands-on experience in AI-based hackathons and internships. As a multilingual learner, I enjoy exploring automation testing and machine learning. I am eager to join a company that values innovation, teamwork, and continuous growth, and I am confident that my dedication and enthusiasm will help me excel in roles that leverage my skills and passion for technology.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
