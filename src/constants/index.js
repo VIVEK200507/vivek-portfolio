@@ -99,9 +99,11 @@ export const experiences = [
 
 export const projects = [
   {
-    name: "WeatherPedia",
+    name: "Portfolio Website",
     description:
-      "Web-based platform that allows users to access weather information for their location by entering it in the search field",
+      "A portfolio website that showcases my skills, projects, and experiences in a visually appealing manner.",
+    description:
+      "This portfolio website is designed to showcase my skills, projects, and experiences in a visually appealing manner. It features a responsive design, smooth animations, and a user-friendly interface.",
     tags: [
       { name: "Javascript", color: "blue-text-gradient" },
       { name: "HTML", color: "green-text-gradient" },
@@ -109,66 +111,43 @@ export const projects = [
       { name: "Weather API by API Ninjas", color: "yellow-text-gradient" },
     ],
     image: weatherpedia,
-    source_code_link: "https://github.com/lohitkolluri/WeatherPedia",
+    source_code_link: "https://vivek200507.github.io/vivek-portfolio/",
+  },{
+    name: "Pet website",
+    description:
+      "This website is a pet adoption platform that allows users to view and adopt pets. It features a user-friendly interface, responsive design, and a database of pets available for adoption.",
+    tags: [
+      { name: "Javascript", color: "blue-text-gradient" },
+      { name: "HTML", color: "green-text-gradient" },
+      { name: "bootstrap 5.3.0", color: "pink-text-gradient" },
+      { name: "Weather API by API Ninjas", color: "yellow-text-gradient" },
+    ],
+    image: weatherpedia,
+    source_code_link: "https://github.com/VIVEK200507/CollegeTips_Task_Pet_website",
   },
   {
-    name: "Terminal Like Portfolio Website",
+    name: "Digital Ninja",
     description:
-      "A terminal themed portfolio website that allows users to type into the terminal and use commands like a real terminal.",
+      "Digital Ninja is for our prents who struglling to use new technology. It is a platform that provides easy-to-follow tutorials and guides on various digital topics, making it accessible for everyone.",
     tags: [
       { name: "HTML", color: "blue-text-gradient" },
       { name: "css", color: "green-text-gradient" },
       { name: "Javascript", color: "pink-text-gradient" },
     ],
     image: termpw,
-    source_code_link: "https://github.com/VIVEK200507/vivek-portfolio",
+    source_code_link: "https://github.com/VIVEK200507/CollegeTips_Task_Digital_ninja",
   },
-  {
-    name: "Mental Health Fitness Tracker",
+   {
+    name: "Sundown Studio clone website",
     description:
-      "ML model that utilizes regression techniques to provide insights into mental health and make predictions based on the available data.",
+      "This is animated website shows my skill in animation with website.",
     tags: [
-      { name: "Machine Learning", color: "blue-text-gradient" },
-      { name: "Jupyter Notebook", color: "green-text-gradient" },
-      { name: "Regression Algorithms", color: "pink-text-gradient" },
+      { name: "HTML", color: "white-text-gradient" },
+      { name: "css", color: "orange-text-gradient" },
+      { name: "Javascript", color: "offwhite-text-gradient" },
     ],
-    image: mhft,
-    source_code_link:
-      "https://github.com/lohitkolluri/mental_health_fitness_tracker",
+    image: termpw,
+    source_code_link: "https://github.com/VIVEK200507/Sundown-studio-clone",
   },
-  {
-    name: "PayloadMaster",
-    description:
-      "Tool to automate payload creation using the Metasploit framework",
-    tags: [
-      { name: "shell", color: "blue-text-gradient" },
-    ],
-    image: payloadmaster,
-    source_code_link: "https://github.com/lohitkolluri/PayloadMaster",
-  },
-  {
-    name: "CompileVortex",
-    description:
-      "Tool to automate payload creation using the Metasploit framework",
-    tags: [
-      { name: "Javascript", color: "blue-text-gradient" },
-      { name: "CSS", color: "green-text-gradient" },
-      { name: "HTML", color: "pink-text-gradient" },
-    ],
-    image: CompileVortex,
-    source_code_link: "https://github.com/lohitkolluri/CompileVortex",
-  },
-  {
-    name: "Sketcher",
-    description:
-      "Convert an input image to a pencil sketch using OpenCV and Matplotlib libraries.",
-    tags: [
-      { name: "OpenCV", color: "blue-text-gradient" },
-      { name: "Matplotlib", color: "green-text-gradient" },
-      { name: "Python", color: "pink-text-gradient" },
-    ],
-
-    image: sketcher,
-    source_code_link: "https://github.com/VIVEK200507/vivek-portfolio",
-  },
+  
 ];
