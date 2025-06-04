@@ -10,7 +10,6 @@
   <a href="#tech-stack">Tech Stack</a>
 </p>
 
-[![GitHub license](https://img.shields.io/github/license/lohitkolluri/Portfolio?style=flat-square)](LICENSE)
 [![Website](https://img.shields.io/website?style=flat-square&url=https%3A%2F%2Fportfolio-lohit.vercel.app)](https://portfolio-lohit.vercel.app)
 [![Made with React](https://img.shields.io/badge/Made%20with-React-61DAFB?style=flat-square&logo=react)](https://reactjs.org)
 
@@ -47,14 +46,14 @@ mindmap
 
 ## 🚀 Demo
 
-Experience the live portfolio at [https://portfolio-lohit.vercel.app](https://portfolio-lohit.vercel.app)
+Experience the live portfolio at [https://vivek200507.github.io/vivek-portfolio/](https://vivek200507.github.io/vivek-portfolio/)
 
 ## 🛠️ Installation
 
 1️⃣ Clone the repository:
 
 ```bash
-git clone https://github.com/lohitkolluri/Portfolio-Website
+git clone https://vivek200507.github.io/vivek-portfolio/
 ```
 
 2️⃣ Navigate to project directory:
@@ -126,11 +125,10 @@ npm run dev
 - ✉️ Email Integration
   - Contact form using EmailJS
 
-## 📄 License
 
 <div align="center">
 
-MIT License © [Lohit Kolluri](LICENSE)
+
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" width="100%"/>
 
