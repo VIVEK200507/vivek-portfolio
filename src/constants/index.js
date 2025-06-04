@@ -126,9 +126,9 @@ export const projects = [
     source_code_link: "https://github.com/VIVEK200507/CollegeTips_Task_Pet_website",
   },
   {
-    name: "Digital Ninja",
+    name: "DigiBudy",
     description:
-      "Digital Ninja is for our prents who struglling to use new technology. It is a platform that provides easy-to-follow tutorials and guides on various digital topics, making it accessible for everyone.",
+      "DigiBudy is for our parents who struglling to use new technology. It is a platform that provides easy-to-follow tutorials and guides on various digital topics, making it accessible for everyone.",
     tags: [
       { name: "HTML", color: "blue-text-gradient" },
       { name: "css", color: "green-text-gradient" },
