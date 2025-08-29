@@ -20,6 +20,7 @@ import {
   mathwork,
   CompileVortex,
   eduskill,
+  collagetips,
 } from "../assets";
 
 export const navLinks = [
@@ -56,11 +57,24 @@ export const technologies = [
 
 export const experiences = [
   {
+    title: "AI-Based Hackathon – Dynamic Job Finder & Skill Assessment",
+  company_name: "Hack2Skill Pvt. Ltd.",
+  icon: edunet,
+  iconBg: "#161329",
+  date: "May 2024 – July 2024",
+  points: [
+    "Developed an AI tool designed to dynamically match users with job opportunities based on their evolving skill sets.",
+    "Integrated personalized skill assessments covering both technical and soft skills to guide career growth.",
+    "Suggested targeted learning paths and practice challenges to upskill users based on assessment results.",
+    "Proposed the inclusion of AR/VR-based virtual internships to provide immersive learning and hands-on project exposure.",
+    ],
+  },
+  {
     title: "AI-Based Hackathon – SBI Life",
     company_name: "Hack2Skill Pvt. Ltd.",
     icon:  eduskill,
     iconBg: "#161329",
-    date: "Nov 2024 – Jan 2024",
+    date: "Nov 2024 – Jan 2025",
     points: [
       "Participated in SBI Life Hackathon focused on enhancing customer data security and fraud detection.",
       "Developed an AI-driven document verification system to validate customer identity and prevent forgery.",
@@ -82,16 +96,15 @@ export const experiences = [
     ],
   },
   {
-    title: "AI-Based Hackathon – Dynamic Job Finder & Skill Assessment",
-  company_name: "Hack2Skill Pvt. Ltd.",
-  icon: edunet,
-  iconBg: "#161329",
-  date: "May 2024 – July 2024",
-  points: [
-    "Developed an AI tool designed to dynamically match users with job opportunities based on their evolving skill sets.",
-    "Integrated personalized skill assessments covering both technical and soft skills to guide career growth.",
-    "Suggested targeted learning paths and practice challenges to upskill users based on assessment results.",
-    "Proposed the inclusion of AR/VR-based virtual internships to provide immersive learning and hands-on project exposure.",
+    title: "Artificial Intelligence Intern",
+    company_name: "CollegeTips Ed. Tech. Media Pvt. Ltd.",
+    icon: collagetips,
+    iconBg: "#161329",
+    date: "Summer 2025",
+    points: [
+      "Assisted in developing and testing basic machine learning models using real data to understand core AI techniques.",
+      "Cleaned and prepared datasets to improve model accuracy and ensured quality data for training purposes.",
+      "Collaborated with the team to solve problems and documented project progress and technical findings clearly.",
     ],
   },
 ];

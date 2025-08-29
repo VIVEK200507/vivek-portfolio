@@ -21,7 +21,7 @@ const Hero = () => {
             I do
             <Typewriter
               options={{
-                strings: ["Web Dev", "Python development", "Software Testing"],
+                strings: ["Python development", "Frontend Development", "Backend Development"],
                 autoStart: true,
                 loop: true,
                 loopCount: Infinity,

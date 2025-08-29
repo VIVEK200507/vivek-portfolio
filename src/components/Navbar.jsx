@@ -7,10 +7,23 @@ import { styles } from '../styles';
 const Navbar = () => {
   const [active, setActive] = useState('');
   const [toggle, setToggle] = useState(false);
+  const [isVisible, setIsVisible] = useState(true);
+  const [lastScrollY, setLastScrollY] = useState(0);
 
   const toggleResume = () => {
-    const resumeUrl = 'https://1drv.ms/b/c/f0524e50d05c129e/EZH_vfAJ6apCg-4fUDzHmqMBGqSt945ZrESGAi3YXEC-IA?e=vvpQsf'||'/Resume.pdf';
-    window.open(resumeUrl);
+    const resumeUrl = `${import.meta.env.BASE_URL}Resume.pdf`;
+    const opened = window.open(resumeUrl, '_blank', 'noopener,noreferrer');
+    if (!opened) {
+      const tempLink = document.createElement('a');
+      tempLink.href = resumeUrl;
+      tempLink.target = '_blank';
+      tempLink.rel = 'noopener noreferrer';
+      // If the browser can't render PDFs, this will download instead
+      tempLink.download = 'Resume.pdf';
+      document.body.appendChild(tempLink);
+      tempLink.click();
+      document.body.removeChild(tempLink);
+    }
   };
 
   useEffect(() => {
@@ -18,6 +31,26 @@ const Navbar = () => {
       setActive('');
     }
   }, [toggle]);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentY = window.scrollY;
+      const isScrollingDown = currentY > lastScrollY;
+
+      if (currentY < 10) {
+        setIsVisible(true);
+      } else if (isScrollingDown) {
+        setIsVisible(false);
+      } else {
+        setIsVisible(true);
+      }
+
+      setLastScrollY(currentY);
+    };
+
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, [lastScrollY]);
 
   const renderNavLinks = (isSecondary) => (
     <ul className={`list-none ${isSecondary ? 'flex sm:hidden' : 'hidden sm:flex'} flex-row gap-6`}>
@@ -50,7 +83,9 @@ const Navbar = () => {
   return (
     <>
       <nav
-        className={`${styles.paddingX} w-full flex items-center py-3 fixed top-0 z-20 bg-primary`}
+        className={`${styles.paddingX} w-full flex items-center py-3 fixed top-0 z-20 bg-primary transition-transform duration-300 ${
+          isVisible ? 'translate-y-0' : '-translate-y-full'
+        }`}
       >
         <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
           <Link

@@ -40,7 +40,15 @@ const About = () => {
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I am a BSc Information Technology student at HNBGU University. I am passionate about artificial intelligence, cybersecurity, Python development, and software testing, with hands-on experience in AI-based hackathons and internships. As a multilingual learner, I enjoy exploring automation testing and machine learning. I am eager to join a company that values innovation, teamwork, and continuous growth, and I am confident that my dedication and enthusiasm will help me excel in roles that leverage my skills and passion for technology.
+        Hey! I’m a Vibe Coder—passionate about AI, Python, software testing, and everything tech. I love jumping into projects—like AI hackathons and internships—where I get to build, test, and experiment with solutions that actually make an impact.
+
+        I’m all about data analysis and visualization, rocking Pandas, NumPy, and Matplotlib to spot trends, uncover insights, and make data speak. I also leverage AI tools whenever I can to save time, energy, and effort, making my workflow smarter and more efficient.
+
+        On top of that, I bring strong team, time, and project management vibes, helping me lead, collaborate, and deliver effectively.
+
+        I’m looking to join a team that’s innovative, collaborative, and growth-driven, where I can bring my energy, ideas, and passion for tech.
+
+        💡 Fun fact: I thrive on AI experiments, coding hacks, data visualizations, and anything that lets me think, create, and vibe with tech efficiently.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

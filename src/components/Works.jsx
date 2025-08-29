@@ -1,12 +1,11 @@
 import React from "react";
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
-
 import { styles } from "../styles";
-import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
+import { github } from "../assets";
 
 const ProjectCard = ({ name, description, tags, image, source_code_link }) => {
   return (
@@ -28,9 +27,14 @@ const ProjectCard = ({ name, description, tags, image, source_code_link }) => {
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
             <div
               onClick={() => window.open(source_code_link, "_blank")}
-              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+              className="black-gradient w-14 h-14 rounded-full flex justify-center items-center cursor-pointer"
+              title="View portfolio"
             >
-              <img src={github} alt="source code" className="w-1/2 h-1/2 object-contain" />
+              <img
+                src={github}
+                alt="portfolio"
+                className="w-10 h-10 object-contain"
+              />
             </div>
           </div>
         </div>

@@ -2,6 +2,7 @@
 import mathwork from "./company/mathwork.png";
 import edunet from "./company/edunet.png";
 import eduskill from "./company/eduskill.png";
+import collagetips from "./company/collagetips.webp";
 
 // Import tech stack images
 import python from "./tech-stack/python.png";
@@ -59,4 +60,5 @@ export {
   menu,
   close,
   eduskill,
+  collagetips,
 };
